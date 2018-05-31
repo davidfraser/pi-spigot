@@ -13,12 +13,17 @@ function calcPi() {
             w(n.toString());
             if (digit==0 && firstrun==1) { w('.'); firstrun=0; };
             digit = (digit+1) % 256;
-            if (digit%8==0) { w(' '); };
-            if (digit%64==0) { p.appendChild(document.createElement('br')); };
             nr = (r.subtract(n.multiply(t))).multiply(ten);
             n  = (q.multiply(three).add(r)).multiply(ten).divide(t).subtract(n.multiply(ten));
             q  = q.multiply(ten);
             r  = nr;
+            if (digit%8==0) {
+                if (digit%64==0) {
+                    p.appendChild(document.createElement('br'));
+                }
+                w(' ');
+                return setTimeout(function(){P(q,r,t,k,n,l);},50)}
+            };
         } else {
             nr = q.shiftLeft(1).add(r).multiply(l);
             nn = q.multiply(k).multiply(seven).add(two).add(r.multiply(l)).divide(t.multiply(l));
