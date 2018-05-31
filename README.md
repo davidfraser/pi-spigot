@@ -24,4 +24,5 @@ are known as [Spigot algorithms](https://en.wikipedia.org/wiki/Spigot_algorithm)
 they produce digits (in some base) sequentially.
 
 * [calcpi.py](calcpi.py) is a Python example of a simple Spigot algorithm from [Rosetta Code](http://rosettacode.org/wiki/Pi#Python)
+* [calcpi.js](calcpi.js) is a Javascript adaptation of this algorithm. As it stands it will not produce more than about 50 digits because of Javascript's internal numeric types
  
