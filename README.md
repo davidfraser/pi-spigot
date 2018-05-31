@@ -12,6 +12,13 @@ the digits of PI sequentially, and write them to the screen.
 
 This repository contains the source code that was written on the mug, and some associated code.
 
+You can view:
+
+* [A working version of the webpage](https://cdn.rawgit.com/j5int/uct-maths-mug/2018/pi-logo.html)
+* [The source code for the webpage as printed on the mug](https://raw.githubusercontent.com/j5int/uct-maths-mug/2018/pi-logo.html)
+
+Or read on for more information and alternative versions...
+
 Calculating the digits of PI sequentially
 -----------------------------------------
 
