@@ -50,7 +50,7 @@ Golden Ratios and Spirals
 This spiral approximates the [Golden Spiral](https://en.wikipedia.org/wiki/Golden_spiral),
 since the ratio between consecutive terms of the Fibonacci sequence tends towards the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio).
 
-This can be seen through [Binet's formula]https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula) for the Fibonacci sequence:
+This can be seen through [Binet's formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula) for the Fibonacci sequence:
 
 ![\phi = \frac {1 + \sqrt 5} {2}](https://latex.codecogs.com/svg.latex?%5Cphi%20%3D%20%5Cfrac%20%7B1%20%2B%20%5Csqrt%205%7D%20%7B2%7D)
 
