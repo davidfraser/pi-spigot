@@ -1,15 +1,14 @@
-UCT Maths Mug
-=============
+UCT Maths Mug 2019
+==================
 
-[j5 International](https://j5int.com/) is a sponsor of the 
-[UCT Mathematics Competition](http://www.mth.uct.ac.za/mam/outreach/competition/).
+[j5 International](https://j5int.com/), now part of [Hexagon PPM](https://hexagonppm.com/) is a sponsor of the 
+[UCT Mathematics Competition](http://www.uctmathscompetition.org.za/).
 
-Prizewinners in 2018 received a mug with the competition logo, the j5 logo,
-and a printout of the source code for a web page, written in HTML and Javascript.
+Prizewinners in 2019 received a mug with the competition logo, the Hexagon PPM and j5 logos,
+and a representation of the [Fibonacci Spiral](https://en.wikipedia.org/wiki/Golden_spiral#Mathematics).
 
-If this HTML code and opened in a web browser, the web browser will begin computing
-the digits of PI sequentially, and write them to the screen.
+For more information on previous mugs, please see:
 
-This repository contains the source code that was written on the mug, and some associated code.
+* The [2018 mug](https://github.com/j5int/uct-maths-mug/blob/2018/README.md) which contained a program for calculating the digits of PI.
 
 
