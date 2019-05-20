@@ -22,7 +22,7 @@ These numbers form a sequence, starting with 0 and 1, where each number is the s
 
 ![F_0 = 0, F_1 = 1](https://latex.codecogs.com/svg.latex?F_0%20%3D%200%2C%20F_1%20%3D%201)
 
-![F_n = F{n-1} + F{n-2}, \textup{ for } n > 1](https://latex.codecogs.com/svg.latex?F_n%20%3D%20F%7Bn-1%7D%20%2B%20F%7Bn-2%7D%2C)
+![F_n = F_{n-1} + F_{n-2}, \textup{ for } n > 1](https://latex.codecogs.com/svg.latex?F_n%20%3D%20F_%7Bn-1%7D%20%2B%20F_%7Bn-2%7D%2C%20%5Ctextup%7B%20for%20%7D%20n%20%3E%201)
 
 (Often, the initial zero is omitted and the sequence starts with two 1s, but this makes no difference to the following terms).
 
