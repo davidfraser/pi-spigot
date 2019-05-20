@@ -37,6 +37,8 @@ The _Fibonacci Spiral_ is a geometric construction that starts with two squares 
 Each subsequent square is constructed on the side of the two previous squares, so that the length of its side is the same as the sum of the length of their sides.
 In this way, the length of the sides of the squares exactly reproduces the Fibonacci sequence.
 
+![Fibonacci Spiral](fibonacci-spiral.svg)
+
 To generate the spiral, simply inscribe a circular arc in each square, with the center at the vertex of the square in common with the two subsequent squares,
 and the arc going between the two closest vertices of the square.
 
