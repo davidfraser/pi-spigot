@@ -7,6 +7,8 @@ UCT Maths Mug 2019
 Prizewinners in 2019 received a mug with the competition logo, the Hexagon PPM and j5 logos,
 and a representation of the *Fibonacci Spiral*.
 
+![UCT Maths Competition 2019 Mug](./uct-maths-mug-2019.svg)
+
 For more information on the Fibonacci Spiral, read on!
 If you look carefully, you should also be able to spot a Fibonacci Spiral in the following video, which demonstrates the advantage of being part of a company named after a mathematical shape:
 
