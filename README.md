@@ -24,7 +24,7 @@ These numbers form a sequence, starting with 0 and 1, where each number is the s
 
 ![F_n = F{n-1} + F{n-2}, \textup{ for } n > 1](https://latex.codecogs.com/svg.latex?F_n%20%3D%20F%7Bn-1%7D%20%2B%20F%7Bn-2%7D%2C)
 
-(Often, the initial zero is ommitted and the sequence starts with two 1s, but this makes no difference to the following terms).
+(Often, the initial zero is omitted and the sequence starts with two 1s, but this makes no difference to the following terms).
 
 The sequence starts with:
 
