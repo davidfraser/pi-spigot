@@ -1,8 +1,14 @@
 UCT Maths Mug
 =============
 
+The UCT Mathematics Competition, established in 1977, is an annual event for high schools in the Western Cape.  It is held on the University of Cape Town campus on an evening in April.
+
+As part of the competition, in some years prizewinners have been given a mug with the UCT Maths Competition logo, and an interesting mathematical design.
+
 [j5 International](https://j5int.com/), now part of [Hexagon PPM](https://hexagonppm.com/) is a sponsor of the 
 [UCT Mathematics Competition](http://www.uctmathscompetition.org.za/).
+
+This is a source code repository which contains information related to mugs produced by j5 for the competition in recent years.
 
 2019
 ====
@@ -25,4 +31,9 @@ Prizewinners in 2018 received a mug with the competition logo, and a version of 
 If this HTML code and opened in a web browser, the web browser will begin computing the digits of PI sequentially, and write them to the screen.
 
 The `2018` branch of this repository contains the source code that was written on the mug, and some associated code and explanations.
+
+Previous Years
+==============
+
+Previous mugs (before j5's involvement with the competition) included the phrase "Mug up your maths" with some interesting formulae and definitions of mathematical constants.
 
