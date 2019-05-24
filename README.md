@@ -1,27 +1,28 @@
 UCT Maths Mug
 =============
 
-[j5 International](https://j5int.com/) is a sponsor of the 
-[UCT Mathematics Competition](http://www.mth.uct.ac.za/mam/outreach/competition/).
+[j5 International](https://j5int.com/), now part of [Hexagon PPM](https://hexagonppm.com/) is a sponsor of the 
+[UCT Mathematics Competition](http://www.uctmathscompetition.org.za/).
 
-Prizewinners in 2018 received a mug with the competition logo, the j5 logo,
-and a printout of the source code for a web page, written in HTML and Javascript.
+2019
+====
 
-If this HTML code and opened in a web browser, the web browser will begin computing
-the digits of PI sequentially, and write them to the screen.
+The [2019 mug](https://github.com/j5int/uct-maths-mug/blob/2019/README.md) is based on the *Fibonacci Spiral*.
 
-This repository contains the source code that was written on the mug, and some associated code.
+Prizewinners in 2019 received a mug with the competition logo, the Hexagon PPM and j5 logos, and a representation of the _Fibonacci Spiral_.
 
-Calculating the digits of PI sequentially
------------------------------------------
+The mug contains some formulae used to define and calculate the Fibonacci sequence, and a link to the 2019 version of this webpage.
 
-π, defined as the ratio between the radius of a perfect circle and its circumference, is not
-a rational number. So any decimal expansion of π is at best an approximation.
+The `2019` branch of this repository contains the image files used to generate the mug, and an explanation of some Fibonacci maths.
 
-The advent of modern computers presented the opportunity for calculating the value of PI to
-a previous implausible precision. Various algorithms have been developed; an interesting family
-are known as [Spigot algorithms](https://en.wikipedia.org/wiki/Spigot_algorithm) because
-they produce digits (in some base) sequentially.
+2018
+====
 
-* [calcpi.py](calcpi.py) is a Python example of a simple Spigot algorithm from [Rosetta Code](http://rosettacode.org/wiki/Pi#Python)
- 
+The [2018 mug](https://github.com/j5int/uct-maths-mug/blob/2018/README.md) is based on the *digits of pi*.
+
+Prizewinners in 2018 received a mug with the competition logo, and a version of the j5 logo, which is _also_ the source code for a web page, written in HTML and Javascript.
+
+If this HTML code and opened in a web browser, the web browser will begin computing the digits of PI sequentially, and write them to the screen.
+
+The `2018` branch of this repository contains the source code that was written on the mug, and some associated code and explanations.
+
