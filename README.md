@@ -61,7 +61,7 @@ This can be seen through [Binet's formula](https://artofproblemsolving.com/wiki/
 
 ![\psi = \frac {1 - \sqrt 5} {2}](https://latex.codecogs.com/svg.latex?%5Cpsi%20%3D%20%5Cfrac%20%7B1%20-%20%5Csqrt%205%7D%20%7B2%7D)
 
-![F_n = \frac{\varphi^n-\psi^n}{\sqrt 5}](https://latex.codecogs.com/svg.latex?F_n%20%3D%20%5Cfrac%7B%5Cvarphi%5En-%5Cpsi%5En%7D%7B%5Csqrt%205%7D)
+![F_n = \frac{\phi^n-\psi^n}{\sqrt 5}](https://latex.codecogs.com/svg.latex?F_n%20%3D%20%5Cfrac%7B%5Cphi%5En-%5Cpsi%5En%7D%7B%5Csqrt%205%7D)
 
 
 
