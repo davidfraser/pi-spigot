@@ -8,33 +8,42 @@ function calcPi() {
     var digit=0, firstrun=1;
     var p=document.getElementById('pi');
     function w(s) { p.appendChild(document.createTextNode(s));}
-    while (true) {
-        if (q.multiply(four).add(r).subtract(t).compareTo(n.multiply(t)) < 0) {
-            w(n.toString());
-            if (digit==0 && firstrun==1) { w('.'); firstrun=0; };
-            digit = (digit+1) % 256;
-            nr = (r.subtract(n.multiply(t))).multiply(ten);
-            n  = (q.multiply(three).add(r)).multiply(ten).divide(t).subtract(n.multiply(ten));
-            q  = q.multiply(ten);
-            r  = nr;
-            if (digit%8==0) {
-                if (digit%64==0) {
-                    p.appendChild(document.createElement('br'));
+    function P(q, r, t, k, n, l) {
+        while (true) {
+            if (q.multiply(four).add(r).subtract(t).compareTo(n.multiply(t)) < 0) {
+                w(n.toString());
+                if (digit == 0 && firstrun == 1) {
+                    w('.');
+                    firstrun = 0;
                 }
-                w(' ');
-                return setTimeout(function(){P(q,r,t,k,n,l);},50)}
-            };
-        } else {
-            nr = q.shiftLeft(1).add(r).multiply(l);
-            nn = q.multiply(k).multiply(seven).add(two).add(r.multiply(l)).divide(t.multiply(l));
-            q = q.multiply(k);
-            t = t.multiply(l);
-            l = l.add(two);
-            k = k.add(one);
-            n  = nn;
-            r  = nr;
+                ;
+                digit = (digit + 1) % 256;
+                nr = (r.subtract(n.multiply(t))).multiply(ten);
+                n = (q.multiply(three).add(r)).multiply(ten).divide(t).subtract(n.multiply(ten));
+                q = q.multiply(ten);
+                r = nr;
+                if (digit % 8 == 0) {
+                    if (digit % 64 == 0) {
+                        p.appendChild(document.createElement('br'));
+                    }
+                    w(' ');
+                    return setTimeout(function () {
+                        P(q, r, t, k, n, l);
+                    }, 50)
+                }
+            } else {
+                nr = q.shiftLeft(1).add(r).multiply(l);
+                nn = q.multiply(k).multiply(seven).add(two).add(r.multiply(l)).divide(t.multiply(l));
+                q = q.multiply(k);
+                t = t.multiply(l);
+                l = l.add(two);
+                k = k.add(one);
+                n = nn;
+                r = nr;
+            }
         }
     }
+    P(q,r,t,k,n,l)
 }
 calcPi();
 </script>
