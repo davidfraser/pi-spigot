@@ -28,4 +28,4 @@ def base_circle(ax):
     ax.add_artist(circle)
     radius = FancyArrowPatch((0.0, 0.0), (1.0, 0.0), clip_on=False, color='k', arrowstyle='->', mutation_scale=50)
     ax.add_artist(radius)
-    radius_label = plt.text(0.5, 0.02, "r=1.0", **std_kwargs.text)
+    radius_label = plt.text(0.5, -0.1, "r=1.0", **std_kwargs.text)
