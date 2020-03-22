@@ -19,6 +19,7 @@ You can view:
 
 * [A working version of the webpage](https://cdn.rawgit.com/j5int/uct-maths-mug/pi-day-2020/pi-logo.html)
 * [The source code for the webpage as printed on the mug](https://raw.githubusercontent.com/j5int/uct-maths-mug/pi-day-2020/pi-logo.html)
+* [A vector graphic of the mug](uct-maths-mug-pi-day-2020.svg)
 
 Or read on for more information and alternative versions...
 
