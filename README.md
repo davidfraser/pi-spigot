@@ -22,16 +22,19 @@ You can view:
 
 Or read on for more information and alternative versions...
 
-Calculating the digits of PI sequentially
------------------------------------------
+Talk at UCT Maths Day
+---------------------
 
-π, defined as the ratio between the radius of a perfect circle and its circumference, is not
-a rational number. So any decimal expansion of π is at best an approximation.
+The talk David did at the UCT maths day, entitled "Bytes of Pi" (the wit is due to Professor Christopher Gilmore),
+is available in an iPython notebook [here](./talk-notes.ipynb). If you follow that link, github should render the
+talk notes, and the Python code embedded within it, and show the diagrams and equations generated.
 
-The advent of modern computers presented the opportunity for calculating the value of PI to
-a previous implausible precision. Various algorithms have been developed; an interesting family
-are known as [Spigot algorithms](https://en.wikipedia.org/wiki/Spigot_algorithm) because
-they produce digits (in some base) sequentially.
+If you want to try out the code yourself, start by following the instructions in the [installation document](./installing.md).
+This will allow you to modify any of the code and see what results you get.
+
+
+Files used to generate the code on the mug
+------------------------------------------
 
 * [calcpi.py](calcpi.py) is a Python example of a simple Spigot algorithm from [Rosetta Code](http://rosettacode.org/wiki/Pi#Python)
 * This in turn seems to be based on a Java implementation from [Max Hailperin](https://github.com/Max-Hailperin/PiScroll/blob/master/app/src/main/java/edu/gac/mcs/max/piscroll/PiSpigot.java)
@@ -40,3 +43,25 @@ they produce digits (in some base) sequentially.
 * [calcpi.js](calcpi.js) is a Javascript adaptation of this algorithm. As it stands it will not produce more than about 50 digits because of Javascript's internal numeric types
 * [calcpibi.js](calcpibi.js) is a modification that has been adapted to use the [jsbn library](http://www-cs-students.stanford.edu/~tjw/jsbn/) for working with big integers in Javascript, and can continue to much higher degrees of precision
 * [calcpi.html](calcpi.html) is a full HTML web page that can load in a browser and perform the required calculations to display PI
+
+### Producing an interestingly shaped program-web-page
+
+The layout of the program, showing a circle with the π symbol inside it, was constructed as follows:
+
+* Constructing the image of PI within a circle
+  (first as an [SVG scalable vector image](pi-circle.svg), then exporting it to a [bitmap PNG image](./pi-circle.png)). 
+* Converting that image to an ASCII layout using the [asciiart program](https://github.com/nodanaonlyzuul/asciiart),
+  by running the instructions in [make-layout.sh](make-layout.sh)
+* Taking the [calcpi.html](calcpi.html) webpage produced above, and compressing the javascript in it so variable names
+  are shorter etc, as [calcpi-compressed.html](calcpi-compressed.html)
+* Repeating the following steps until a desirable outcome was obtained:
+  - Running a program [layout_code.py](layout_code.py) that takes the HTML source code
+    and lays it out based on the text layout in [layout.txt](layout.txt)
+  - The resulting code then doesn't work: words, tags and other significant parts of the program are split by spaces, etc, 
+    and it no longer a valid HTML page or Javascript program
+  - Adjusting both [layout.txt](layout.txt) and [calcpi-compressed.html](calcpi-compressed.html) repeatedly with techniques
+    such as adding a layout character here or there, adding insignificant padding to the program,
+    splitting variable and function names by changing `object.attribute` to `object['attribute']`, and then splitting
+    attribute names as in `object['att'+'tri'+'bute']` to fit in with the short sequences required.
+  - Testing that the resulting program both works and achieves the necessary layout.
+
