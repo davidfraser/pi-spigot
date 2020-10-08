@@ -71,3 +71,7 @@ The layout of the program, showing a circle with the π symbol inside it, was co
     attribute names as in `object['att'+'tri'+'bute']` to fit in with the short sequences required.
   - Testing that the resulting program both works and achieves the necessary layout.
 
+Licensing
+---------
+
+See [LICENSE.md](./LICENSE.md) for source code licensing information
