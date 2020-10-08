@@ -1,9 +1,26 @@
-UCT Maths "Pi Day" Mug
-======================
+PyConZA 2020 Talk: Bytes of Pi
+==============================
 
-[Hexagon PPM](https://hexagonppm.com/) is a sponsor of the 
+[Hexagon](https://hexagon.com/) is a gold sponsor of [PyConZA](https://za.pycon.org).
+This branch of this repository covers a talk given by David Fraser from Hexagon's Cape Town office at PyCon ZA 2020.
+
+Talk at UCT Maths Day
+---------------------
+
+The content of the talk David did, entitled "Bytes of Pi" (the wit is due to [Professor Christopher Gilmore](http://www.mth.uct.ac.za/prof-christopher-gilmour),
+is available in an iPython notebook [here](./talk-notes.ipynb). If you follow that link, github should render the
+talk notes, and the Python code embedded within it, and show the diagrams and equations generated.
+
+If you want to try out the code yourself, start by following the instructions in the [installation document](./installing.md).
+This will allow you to modify any of the code and see what results you get.
+
+
+Background Story
+----------------
+ 
+Hexagon is also a sponsor of the 
 [UCT Mathematics Competition](http://www.mth.uct.ac.za/mam/outreach/competition/),
-and David Fraser from the Cape Town office presented at the UCT Mathematics Day
+and David presented at the UCT Mathematics Day
 held on Saturday 14  March, 2020 - which is Pi Day in American date notation: 3.14.
 
 Participants received a mug describing the day, and containing 
@@ -12,7 +29,6 @@ a printout of the source code for a web page, written in HTML and Javascript.
 If this HTML code is opened in a web browser, the web browser will begin computing
 the digits of PI sequentially, and write them to the screen.
 
-(Former winners in the 1998 UCT Mathematics Competition in 1998 received a similar mug)
 This repository contains the source code that was written on the mug, and some associated code.
 
 You can view:
@@ -22,17 +38,6 @@ You can view:
 * [A vector graphic of the mug](uct-maths-mug-pi-day-2020.svg)
 
 Or read on for more information and alternative versions...
-
-Talk at UCT Maths Day
----------------------
-
-The talk David did at the UCT maths day, entitled "Bytes of Pi" (the wit is due to Professor Christopher Gilmore),
-is available in an iPython notebook [here](./talk-notes.ipynb). If you follow that link, github should render the
-talk notes, and the Python code embedded within it, and show the diagrams and equations generated.
-
-If you want to try out the code yourself, start by following the instructions in the [installation document](./installing.md).
-This will allow you to modify any of the code and see what results you get.
-
 
 Files used to generate the code on the mug
 ------------------------------------------
