@@ -17,9 +17,11 @@ This repository contains the source code that was written on the mug, and some a
 
 You can view:
 
-* [A working version of the webpage](https://cdn.rawgit.com/j5int/uct-maths-mug/pi-day-2020/pi-logo.html)
+* [A working version of the webpage](https://raw.githack.com/davidfraser/pi-spigot/pi-day-2020/pi-logo.html)
 * [The source code for the webpage as printed on the mug](https://raw.githubusercontent.com/j5int/uct-maths-mug/pi-day-2020/pi-logo.html)
 * [A vector graphic of the mug](uct-maths-mug-pi-day-2020.svg)
+
+<img src="https://raw.githubusercontent.com/davidfraser/pi-spigot/pi-day-2020/uct-maths-mug-pi-day-2020.svg"/>
 
 Or read on for more information and alternative versions...
 
